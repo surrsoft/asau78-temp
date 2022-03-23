@@ -1,3 +1,4 @@
+
 # Evgeny BARANNIKOV
 
 *frontend developer* 🖐️
@@ -56,25 +57,51 @@
 
 ## My locations
 
+> Россия, Ярославская область, г. Рыбинск
+
 ```topojson
 {
-  "type": "Topology",
-  "transform": {
-    "scale": [0.0005000500050005, 0.00010001000100010001],
-    "translate": [100, 0]
-  },
-  "objects": {
-    "example": {
-      "type": "GeometryCollection",
-      "geometries": [
-        {
-          "type": "Point",
-          "properties": {"Ярославская обл.": "Рыбинск"},
-          "coordinates": [58.048249, 38.858707]
-        }
+   "type":"Topology",
+   "objects":{
+      "collection":{
+         "type":"GeometryCollection",
+         "geometries":[
+            {
+               "type":"Point",
+               "properties":{
+                  "marker-color":"#f40b0b",
+                  "marker-size":"medium",
+                  "marker-symbol":""
+               },
+               "coordinates":[
+                  0,
+                  0
+               ]
+            }
+         ]
+      }
+   },
+   "arcs":[
+      
+   ],
+   "transform":{
+      "scale":[
+         2,
+         2
+      ],
+      "translate":[
+         38.85812759399414,
+         58.04800086518678
       ]
-    }
-  },
-  "arcs": [[[4000, 0], [1999, 9999], [2000, -9999], [2000, 9999]],[[0, 0], [0, 9999], [2000, 0], [0, -9999], [-2000, 0]]]
+   },
+   "bbox":[
+      38.85812759399414,
+      58.04800086518678,
+      38.85812759399414,
+      58.04800086518678
+   ]
 }
 ```
+
+
+
