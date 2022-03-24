@@ -26,8 +26,6 @@ I am constantly developing and improving myself. I like to study new technologie
 
 ## Skills
 
-За время практической работы познакомился со следующими технологиями:
-
 During my practical work, I got acquainted with the following technologies:
 
 | chapter | 🟢 good knowledge | 🟠 middle knowledge | 🟣 started knowledge |
@@ -36,12 +34,12 @@ During my practical work, I got acquainted with the following technologies:
 | LIBRARIES | lodash, jQuery, Highcharts, Express.js, Mongoose, JsonServer, DevExtreme, moment.js, day.js, Material UI, And Design, Chakra UI, Element UI, Bootstrap, Bulma, Formik |  RxJava, bull.js, mocha, chai, sinon.js, nock.js, Gulp, SheetJS, Socket.io, tsdx, jest | yup |
 | DB / DBMS |MongoDB, SQLite, Firebird|PostgreSQL|Firebase|
 | TOOLS |WebStorm, PHPStorm, VS Code Android Studio, npm, yarn, DevTools браузеров, Git (GitLab, GitHub, BitBucket), bash, linux terminal | make | &nbsp; |
-| OTHER SKILLS | 10-ти пальцевая слепая печать | &nbsp; | английский язык - свободное чтение технической литературы с редким обращением к словарю |
+| OTHER SKILLS | 10-finger blind printing | &nbsp; | English - free reading of technical literature with occasional reference to the dictionary |
 
 ## WORK EXPERIENCE
 
 - **2020-now ООО "7 Red Lines"**. Creation of new and development of existing projects for companies:
-  - **Polymedia (subcontractor TVEL/Rosatom)** и **«Corportaion MSP»** (element of the ecosystem "Gosuslugi") - development of dashboards with widgets,
+  - **Polymedia (subcontractor TVEL/Rosatom)** and **«Corportaion MSP»** (element of the ecosystem "Gosuslugi") - development of dashboards with widgets,
 multi-level tables, graphs, charts (technologies - Visiology, JavaScript, jQuery, Highcharts, DevExtreme) 
   - **Saint Gobain** — A hub site, a single platform for all Saint Gobain technical solutions and services in Russia. Participation in the creation of technical calculators, development of various frontend parts of the project. Technologies — JavaScript, jQuery, Gulp, Drupal, PHP, Docker
   - **Amway** — client and admin parts, the project of registering users to events. Development of the initiated project. Technologies — Vue, Element Ui, Docker
@@ -50,17 +48,17 @@ multi-level tables, graphs, charts (technologies - Visiology, JavaScript, jQuery
   - **USA Check Shop** - Website for selling (shipping) clothing from the U.S. - one per project, fullstack. Layout of the entire frontend part according to the layout, implementation of the initial backend with the authentication flop. Technologies — Vue (Nuxt.js), Nest.js, MongoDb, Mongoose, Webpack
   - **CHTZ (Presale)** - SIP-client in Node.js to record voice calls — presale. Technologies — Node.js, JavaScript
 
-- **2019-2020 "Браймонсофт"**
+- **2019-2020 "Brymonsoft"**
   - Creation of new web projects (for internal corporate use by US customers) and development of existing ones. Building almost from scratch
 several web projects (backend and frontend). Technologies: JavaScript, Node.js, React, MongoDB, GraphQL, Docker, Redis, Azure. Scope - document recognition with
 using machine learning, bots, an application for massively polling subnet machines.
 
-- **2014-2019 "НПО Криста"**
+- **2014-2019 "NPO Krista"**
   - Support/extension of functionality of the systems intended for use by local authorities (property accounting, contracts, financial accounting). Development technology - ABL (internal macro language), Firebird DBMS. Integration with the state web-services (Rosreestr, Federal Tax Service), including via SMEW. Data transfer from new clients' systems.
 - **2001-2014** - design engineer at "NPO Saturn", "Brothers Nobel Shipyard", "Saturn-1"
 
 ## Education
-- "P.A. Solovyov Rybinsk State Aviation Technological University" ([RGATU](https://rsatu.ru/)), 2000 year., engineer in the specialty "Aircraft Engines and Power Plants" (Design Engineer)
+- "P.A. Solovyov Rybinsk State Aviation Technological University" ([RGATU](https://rsatu.ru/)), 2000 year, engineer in the specialty "Aircraft Engines and Power Plants" (Design Engineer)
 
 ## Code example
 
@@ -73,7 +71,7 @@ function isEmptyOrWhitespaces(str: string): Boolean {
 
 ## My location on map
 
-> [Россия, Ярославская область, г. Рыбинск](https://yandex.by/maps/-/CCUB5HXKsD)
+> [Russia, Yaroslavl region, Rybinsk](https://yandex.by/maps/-/CCUB5HXKsD)
 
 ```topojson
 {
