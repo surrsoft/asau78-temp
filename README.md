@@ -69,7 +69,7 @@ function isEmptyOrWhitespaces(str: string): Boolean {
 }
 ```
 
-## My locations
+## Где я
 
 > [Россия, Ярославская область, г. Рыбинск](https://yandex.by/maps/-/CCUB5HXKsD)
 
