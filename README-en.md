@@ -5,7 +5,7 @@
 
 ![avatar](./assets/images/0064_w200.jpg)
 
-## Contact
+## Contacts
 
 | 🔑            | 🔎                                   | 🔑            | 🔎                                   |
 | :---:         | :---:                                | :---:         | :---:                                |
@@ -36,7 +36,7 @@ During my practical work, I got acquainted with the following technologies:
 | TOOLS |WebStorm, PHPStorm, VS Code Android Studio, npm, yarn, DevTools браузеров, Git (GitLab, GitHub, BitBucket), bash, linux terminal | make | &nbsp; |
 | OTHER SKILLS | 10-finger blind printing | &nbsp; | English - free reading of technical literature with occasional reference to the dictionary |
 
-## WORK EXPERIENCE
+## Work expirience
 
 - **2020-now ООО "7 Red Lines"**. Creation of new and development of existing projects for companies:
   - **Polymedia (subcontractor TVEL/Rosatom)** and **«Corportaion MSP»** (element of the ecosystem "Gosuslugi") - development of dashboards with widgets,
@@ -68,6 +68,11 @@ function isEmptyOrWhitespaces(str: string): Boolean {
   return (!str || str.length === 0 || /^\s*$/.test(str))
 }
 ```
+
+## Languages
+- English (free reading of technical literature with occasional reference to the dictionary)
+- Russian (native)
+- Belarussian (native)
 
 ## My location on map
 
