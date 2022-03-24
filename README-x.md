@@ -1,1 +1,1 @@
-[shool-cv-html](https://surrsoft.github.io/school-cv/)
+[shool-cv-html](https://surrsoft.github.io/)
