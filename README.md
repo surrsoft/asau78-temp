@@ -64,7 +64,7 @@
 
 ```typescript
 
-function isEmptyOrWhitespaces(str: any): Boolean {
+function isEmptyOrWhitespaces(str: string): Boolean {
   return (!str || str.length === 0 || /^\s*$/.test(str))
 }
 ```
