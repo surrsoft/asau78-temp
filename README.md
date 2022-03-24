@@ -31,8 +31,8 @@ During my practical work, I got acquainted with the following technologies:
 | chapter | 🟢 good knowledge | 🟠 middle knowledge | 🟣 started knowledge |
 | --- | --- | --- | --- |
 | PROGRAMMING LANGUAGES / FRAMEWORKS / BIG TECHNOLOGIES / BIG LIBRARIES | JavaScript, TypeScript, Java (Android Framework), HTML, CSS, SCSS, Vue, React, Redux, NodeJS, GraphQL, REST API, Docker, npm, yarn, Angular, RxJS, Vuex, Markdown, XML, SQL, Visiology, SVG | Nest.js, Nuxt.js, Next.js, Remix, Webpack, Babel, PHP, Drupal, Kotlin (Android Framework), SOAP, Twig | React Native, Redis, Azure, nginx, StoryBook |
-| LIBRARIES | lodash, jQuery, Highcharts, Express.js, Mongoose, JsonServer, DevExtreme, moment.js, day.js, Material UI, And Design, Chakra UI, Element UI, Bootstrap, Bulma, Formik |  RxJava, bull.js, mocha, chai, sinon.js, nock.js, Gulp, SheetJS, Socket.io, tsdx, jest | yup |
-| DB / DBMS |MongoDB, SQLite, Firebird|PostgreSQL|Firebase|
+| LIBRARIES | lodash, jQuery, Highcharts, Express.js, Mongoose, JsonServer, DevExtreme, moment.js, day.js, Material UI, And Design, Chakra UI, Element UI, Bootstrap, Bulma, Formik, RxJava, bull.js |  Jest, mocha, chai, sinon.js, nock.js, Gulp, SheetJS, Socket.io, tsdx | yup |
+| DB / DBMS | MongoDB, SQLite, Firebird|PostgreSQL | Firebase |
 | TOOLS |WebStorm, PHPStorm, VS Code Android Studio, npm, yarn, DevTools браузеров, Git (GitLab, GitHub, BitBucket), bash, linux terminal | make | &nbsp; |
 | OTHER SKILLS | 10-finger blind printing | &nbsp; | English - free reading of technical literature with occasional reference to the dictionary |
 
