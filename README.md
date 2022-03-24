@@ -5,62 +5,62 @@
 
 ![avatar](./assets/images/0064_w200.jpg)
 
-## Контактные данные
+## Contact
 
 | 🔑            | 🔎                                   | 🔑            | 🔎                                   |
 | :---:         | :---:                                | :---:         | :---:                                |
 | tel           | +7 920 659 7347                      | telegram      | [@evgenyweb](https://t.me/evgenyweb) |
 | email         | [evgebar-1@mail.ru](mailto://evgebar-1@mail.ru)   | skype         | @ssurrokk                            |
 
-> Citizenship: Russia
+> Гражданство: Россия
 
-> Address: Russia, Yaroslavl region, Rybinsk
+> Адрес: Россия, Ярославская область, г. Рыбинск
 
-## About me
+## О себе
 
-I am a frontend developer. I work with React, Vue, Angular. 8 years of experience in IT, including 3 years in the field of web technologies. I have experience with backend.
+Я фронтенд разработчик. Работаю с React, Vue, Angular. Стаж в IT 8 лет, из них 3 года в области веб-технологий. Имею опыт работы с бэкендом. 
 
-I started by writing Android applications as a hobby, for which I used the Java and Kotlin programming languages, gained knowledge in the field of object-oriented programming (OOP), several of my applications are published on Google Play (for example [Proportion](https://play. google.com/store/apps/details?id=ru.evgeny)).
+Начинал с написания Android-приложений, как хобби, для чего использовал языки программирования Java и Kotlin, получил знания в области объектно-ориентированного программирования (ООП), несколько моих приложений опубликованы в Google Play (например [Пропорция](https://play.google.com/store/apps/details?id=ru.evgeny)).
 
-I am constantly developing and improving myself. I like to study new technologies, techniques, techniques.
+Постоянно развиваюсь, самосовершенствуюсь. Люблю изучать новые технологии, приёмы, техники.
 
-## Skills
+## Навыки и технологии
 
-During my practical work, I got acquainted with the following technologies:
+За время практической работы познакомился со следующими технологиями:
 
-| chapter | 🟢 good knowledge | 🟠 middle knowledge | 🟣 started knowledge |
+| раздел | 🟢 хорошие знания | 🟠 средние знания | 🟣 начальные знания |
 | --- | --- | --- | --- |
-| PROGRAMMING LANGUAGES / FRAMEWORKS / BIG TECHNOLOGIES / BIG LIBRARIES | JavaScript, TypeScript, Java (Android Framework), HTML, CSS, SCSS, Vue, React, Redux, NodeJS, GraphQL, REST API, Docker, npm, yarn, Angular, RxJS, Vuex, Markdown, XML, SQL, Visiology, SVG | Nest.js, Nuxt.js, Next.js, Remix, Webpack, Babel, PHP, Drupal, Kotlin (Android Framework), SOAP, Twig | React Native, Redis, Azure, nginx, StoryBook |
-| LIBRARIES | lodash, jQuery, Highcharts, Express.js, Mongoose, JsonServer, DevExtreme, moment.js, day.js, Material UI, And Design, Chakra UI, Element UI, Bootstrap, Bulma, Formik, RxJava, bull.js |  Jest, mocha, chai, sinon.js, nock.js, Gulp, SheetJS, Socket.io, tsdx | yup |
-| DB / DBMS | MongoDB, SQLite, Firebird|PostgreSQL | Firebase |
-| TOOLS |WebStorm, PHPStorm, VS Code Android Studio, npm, yarn, DevTools браузеров, Git (GitLab, GitHub, BitBucket), bash, linux terminal | make | &nbsp; |
-| OTHER SKILLS | 10-finger blind printing | &nbsp; | English - free reading of technical literature with occasional reference to the dictionary |
+| ЯЗЫКИ ПРОГРАММИРОВАНИЯ / ФРЕЙМВОРКИ /  КРУПНЫЕ ТЕХНОЛОГИИ / КРУПНЫЕ БИБЛИОТЕКИ | JavaScript, TypeScript, Java (Android Framework), HTML, CSS, SCSS, Vue, React, Redux, NodeJS, GraphQL, REST API, Docker, npm, yarn, Angular, RxJS, Vuex, Markdown, XML, SQL, Visiology, SVG | Nest.js, Nuxt.js, Next.js, Remix, Webpack, Babel, PHP, Drupal, Kotlin (Android Framework), SOAP, Twig | React Native, Redis, Azure, nginx, StoryBook |
+|БИБЛИОТЕКИ| lodash, jQuery, Highcharts, Express.js, Mongoose, JsonServer, DevExtreme, moment.js, day.js, Material UI, And Design, Chakra UI, Element UI, Bootstrap, Bulma, Formik |  RxJava, bull.js, mocha, chai, sinon.js, nock.js, Gulp, SheetJS, Socket.io, tsdx, jest | yup |
+|БД/СУБД|MongoDB, SQLite, Firebird|PostgreSQL|Firebase|
+|ИНСТРУМЕНТЫ|WebStorm, PHPStorm, VS Code Android Studio, npm, yarn, DevTools браузеров, Git (GitLab, GitHub, BitBucket), bash, linux terminal | make | &nbsp; |
+|НАВЫКИ И ПРОЧЕЕ| 10-ти пальцевая слепая печать | &nbsp; | английский язык - свободное чтение технической литературы с редким обращением к словарю |
 
-## WORK EXPERIENCE
+## Опыт работы
 
-- **2020-now ООО "7 Red Lines"**. Creation of new and development of existing projects for companies:
-  - **Polymedia (subcontractor TVEL/Rosatom)** and **«Corportaion MSP»** (element of the ecosystem "Gosuslugi") - development of dashboards with widgets,
-multi-level tables, graphs, charts (technologies - Visiology, JavaScript, jQuery, Highcharts, DevExtreme) 
-  - **Saint Gobain** — A hub site, a single platform for all Saint Gobain technical solutions and services in Russia. Participation in the creation of technical calculators, development of various frontend parts of the project. Technologies — JavaScript, jQuery, Gulp, Drupal, PHP, Docker
-  - **Amway** — client and admin parts, the project of registering users to events. Development of the initiated project. Technologies — Vue, Element Ui, Docker
-  - **Datareon** — development of an existing project. Technologies — Angular, TypeScript, RxJS
-  - **Petrovich Trading Chain** - participation in the development of the stacking calculator. Technologies — JavaScript, Drupal, PHP
-  - **USA Check Shop** - Website for selling (shipping) clothing from the U.S. - one per project, fullstack. Layout of the entire frontend part according to the layout, implementation of the initial backend with the authentication flop. Technologies — Vue (Nuxt.js), Nest.js, MongoDb, Mongoose, Webpack
-  - **CHTZ (Presale)** - SIP-client in Node.js to record voice calls — presale. Technologies — Node.js, JavaScript
+- **2020-(настоящее время) ООО "7 Красных Линий"**. Создание новых и развитие существующих проектов для компаний:
+  - **Polymedia (субподрядчик ТВЭЛ/Росатом)** и **«Корпорация МСП»** (элемент экосистемы «Госуслуги») - разработка дашбордов с виджетами,
+многоуровневыми таблицами, графиками, диаграммами (технологии - Visiology, JavaScript, jQuery, Highcharts, DevExtreme) 
+  - **Saint Gobain** — сайт-хаб, единая платформа всех технических решений и сервисов Saint Gobain в России. Участие в создании технических калькуляторов, разработка различных фронтенд частей проекта. Технологии — JavaScript, jQuery, Gulp, Drupal, PHP, Docker
+  - **Amway** — клиентская и админ. части, проект записи пользователей на мероприятия. Развитие начатого проекта. Технологии — Vue, Element Ui, Docker
+  - **Datareon** — помощь в развитии существующего проекта. Технологии — Angular, TypeScript, RxJS
+  - **Торговая сеть «Петрович»** - участие в разработке калькулятора расчета укладки товаров. Фронтенд. Технологии — JavaScript, Drupal, PHP
+  - **USA Check Shop** - сайт по продаже (отправке) одежды из США — один на проекте, fullstack. Вёрстка всей фронтенд-части по макету, реализация начального бэкенда с фловом аутентификации. Технологии — Vue (Nuxt.js), Nest.js, MongoDb, Mongoose, Webpack
+  - **ЧТЗ (Presale)** - SIP-клиент на Node.js для записи голосовых звонков — presale. Технологии — Node.js, JavaScript
 
-- **2019-2020 "Brymonsoft"**
-  - Creation of new web projects (for internal corporate use by US customers) and development of existing ones. Building almost from scratch
-several web projects (backend and frontend). Technologies: JavaScript, Node.js, React, MongoDB, GraphQL, Docker, Redis, Azure. Scope - document recognition with
-using machine learning, bots, an application for massively polling subnet machines.
+- **2019-2020 "Браймонсофт"**
+  - Создание новых веб-проектов (для внутрикорпоративного использования заказчиками из США) и развитие существующих. Создание почти с нуля
+несколько веб-проектов (backend и frontend). Стек: JavaScript, Node.js, React, MongoDB, GraphQL, Docker, Redis, Azure. Сфера - распознавание документов с
+использованием машинного обучения, боты, приложение для массированного опроса машин подсети.
 
-- **2014-2019 "NPO Krista"**
-  - Support/extension of functionality of the systems intended for use by local authorities (property accounting, contracts, financial accounting). Development technology - ABL (internal macro language), Firebird DBMS. Integration with the state web-services (Rosreestr, Federal Tax Service), including via SMEW. Data transfer from new clients' systems.
-- **2001-2014** - design engineer at "NPO Saturn", "Brothers Nobel Shipyard", "Saturn-1"
+- **2014-2019 "НПО Криста"**
+  - Поддержка/расширение функционала систем предназначенных для использования местными органами власти (учёт имущества, договора, бухгалтерия). Технология разработки - ABL (внутренний макроязык АС Смета), СУБД Firebird. Интеграция с государственными веб-сервисами (Росреестр, ФНС), в том числе через СМЭВ. Перенос данных из систем новых клиентов.
+- **2001-2014** - инженер-конструктор на предприятиях: "НПО Сатурн", "Верфь братьевь Нобель", ОАО "Сатурн-1"
 
-## Education
-- "P.A. Solovyov Rybinsk State Aviation Technological University" ([RGATU](https://rsatu.ru/)), 2000 year, engineer in the specialty "Aircraft Engines and Power Plants" (Design Engineer)
+## Образование
+- "Рыбинский государственный авиационный технологический университет имени П.А. Соловьёва" ([РГАТУ](https://rsatu.ru/)), 2000 г., инженер по специальности "Авиационные двигатели и энергетические установки" (инженер-конструктор)
 
-## Code example
+## Примеры кода
 
 ```typescript
 
@@ -69,9 +69,9 @@ function isEmptyOrWhitespaces(str: string): Boolean {
 }
 ```
 
-## My location on map
+## Где я
 
-> [Russia, Yaroslavl region, Rybinsk](https://yandex.by/maps/-/CCUB5HXKsD)
+> [Россия, Ярославская область, г. Рыбинск](https://yandex.by/maps/-/CCUB5HXKsD)
 
 ```topojson
 {
