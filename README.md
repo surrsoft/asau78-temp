@@ -3,7 +3,7 @@
 
 *frontend developer* 🖐️
 
-![avatar](./assets/images/0064.jpg)
+![avatar](./assets/images/0064_w340.jpg)
 
 ## Контактные данные
 
