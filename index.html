@@ -4,25 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./hilights-js/a11y-light.min.css">
+    <script src="./hilights-js/highlight.min.js"></script>
     <link rel="stylesheet" href="./style.css"/>
     <title>Document</title>
 </head>
 <body>
+
 <main class="cv container">
     <header class="header">
         <nav class="nav mt-b">
             <ul class="nav-list">
-                <li class="nav-list__elem">Contacts</li>
-                <li class="nav-list__elem">About me</li>
-                <li class="nav-list__elem">Skills</li>
-                <li class="nav-list__elem">Work expirience</li>
-                <li class="nav-list__elem">Education</li>
-                <li class="nav-list__elem">Code example</li>
-                <li class="nav-list__elem">Languages</li>
-                <li class="nav-list__elem">My location</li>
+                <li class="nav-list__elem"><a href="#at-contacts">Contacts</a></li>
+                <li class="nav-list__elem"><a href="#at-aboutme">About me</a></li>
+                <li class="nav-list__elem"><a href="#at-skills">Skills</a></li>
+                <li class="nav-list__elem"><a href="#at-work">Work expirience</a></li>
+                <li class="nav-list__elem"><a href="#at-edu">Education</a></li>
+                <li class="nav-list__elem"><a href="#at-ce">Code example</a></li>
+                <li class="nav-list__elem"><a href="#at-lang">Languages</a></li>
+                <li class="nav-list__elem"><a href="#at-location">My location</a></li>
             </ul>
         </nav>
-        <div class="hero mt-a">
+        <div class="hero mt-c">
             <div class="hero__logo-box">
                 <img src="./assets/images/0064_w200.jpg" alt="my logo"/>
             </div>
@@ -33,66 +36,60 @@
         </div>
     </header>
     <div class="mainbox">
-        <section class="sec-contacts mt-a">
-            <h1 class="sec-header">Contacts</h1>
-            <div class="sec-contacts__body">
-                <div class="contacts">
-                    <div class="contacts__item">
-                        <div class="contacts__img"><img src="./assets/images/phone.svg" alt="telegram logo"></div>
-                        <div class="contacts__pair">
-                            <div class="pair-key">tel</div>
-                            <div class="pair-val">+7 920 659 7347</div>
-                        </div>
+        <section id="at-contacts" class="sec sec-contacts">
+            <h1 class="sec__header">Contacts</h1>
+            <div class="sec__body sec-contacts__body">
+                <div class="contacts__item">
+                    <div class="contacts__img"><img src="./assets/images/phone.svg" alt="telegram logo"></div>
+                    <div class="contacts__pair">
+                        <div class="pair-key">tel</div>
+                        <div class="pair-val">+7 920 659 7347</div>
                     </div>
-                    <div class="contacts__item">
-                        <div class="contacts__img"><img src="./assets/images/mailru.svg" alt="telegram logo"></div>
-                        <div class="contacts__pair">
-                            <div class="pair-key">email</div>
-                            <div class="pair-val"><a href="mailto://evgebar-1@mail.ru"
-                                                     target="_blank">evgebar-1@mail.ru</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="contacts__item">
-                        <div class="contacts__img"><img src="./assets/images/telegram.svg" alt="telegram logo"></div>
-                        <div class="contacts__pair">
-                            <div class="pair-key">telegram</div>
-                            <div class="pair-val"><a href="https://t.me/evgenyweb" target="_blank">@evgenyweb</a></div>
-                        </div>
-                    </div>
-                    <div class="contacts__item">
-                        <div class="contacts__img"><img src="./assets/images/skype.svg" alt="telegram logo"></div>
-                        <div class="contacts__pair">
-                            <div class="pair-key">skype</div>
-                            <div class="pair-val"><a href="skype://ssurrokk" target="_blank">ssurrokk</a></div>
+                </div>
+                <div class="contacts__item">
+                    <div class="contacts__img"><img src="./assets/images/mailru.svg" alt="telegram logo"></div>
+                    <div class="contacts__pair">
+                        <div class="pair-key">email</div>
+                        <div class="pair-val"><a href="mailto://evgebar-1@mail.ru"
+                                                 target="_blank">evgebar-1@mail.ru</a>
                         </div>
                     </div>
                 </div>
-
-                <div class="contacts">
-                    <div class="contacts__item">
-                        <div class="contacts__img"><img src="./assets/images/goverment.svg" alt="telegram logo"></div>
-                        <div class="contacts__pair">
-                            <div class="pair-key">citizenship</div>
-                            <div class="pair-val">Russian Federation</div>
-                        </div>
+                <div class="contacts__item">
+                    <div class="contacts__img"><img src="./assets/images/telegram.svg" alt="telegram logo"></div>
+                    <div class="contacts__pair">
+                        <div class="pair-key">telegram</div>
+                        <div class="pair-val"><a href="https://t.me/evgenyweb" target="_blank">@evgenyweb</a></div>
                     </div>
-                    <div class="contacts__item">
-                        <div class="contacts__img"><img src="./assets/images/pin.svg" alt="telegram logo"></div>
-                        <div class="contacts__pair">
-                            <div class="pair-key">address</div>
-                            <div class="pair-val">
-                                Yaroslavl region, Rybinsk
-                            </div>
+                </div>
+                <div class="contacts__item">
+                    <div class="contacts__img"><img src="./assets/images/skype.svg" alt="telegram logo"></div>
+                    <div class="contacts__pair">
+                        <div class="pair-key">skype</div>
+                        <div class="pair-val"><a href="skype://ssurrokk" target="_blank">ssurrokk</a></div>
+                    </div>
+                </div>
+                <div class="contacts__item">
+                    <div class="contacts__img"><img src="./assets/images/goverment.svg" alt="telegram logo"></div>
+                    <div class="contacts__pair">
+                        <div class="pair-key">citizenship</div>
+                        <div class="pair-val">Russian Federation</div>
+                    </div>
+                </div>
+                <div class="contacts__item">
+                    <div class="contacts__img"><img src="./assets/images/pin.svg" alt="telegram logo"></div>
+                    <div class="contacts__pair">
+                        <div class="pair-key">address</div>
+                        <div class="pair-val">
+                            Yaroslavl region, Rybinsk
                         </div>
                     </div>
                 </div>
-
             </div>
         </section>
-        <section class="sec-aboutme">
-            <h1 class="sec-header">About me</h1>
-            <div class="sec-aboutme__body">
+        <section id="at-aboutme" class="sec sec-aboutme">
+            <h1 class="sec__header">About me</h1>
+            <div class="sec__body sec-aboutme__body">
                 <p>I am a frontend developer. I work with React, Vue, Angular. 8 years of experience in IT, including 3
                     years in the field of web technologies. I have experience with backend.</p>
 
@@ -105,98 +102,219 @@
                     techniques.</p>
             </div>
         </section>
-        <section class="sec-skills">
-            <h1 class="sec-header">Skills</h1>
-            <div>During my practical work, I got acquainted with the following technologies:</div>
-            <article>
-                <h1>PROGRAMMING LANGUAGES / FRAMEWORKS / BIG TECHNOLOGIES / BIG LIBRARIES</h1>
-                <div class="skills-box">
-                    <div>🟢 good knowledge</div>
-                    <div>
-                        <div>JavaScript, TypeScript, Java (Android Framework)</div>
-                        <div>HTML, CSS, SCSS</div>
-                        <div>Vue, React, Angular</div>
-                        <div>Redux, Vuex</div>
-                        <div>GraphQL, REST API</div>
-                        <div>NodeJS, Docker, npm, yarn, RxJS, Markdown, XML, SQL, Visiology, SVG</div>
-                    </div>
-                    <div>🟠 middle knowledge</div>
-                    <div>
-                        <div>Nest.js, Nuxt.js, Next.js</div>
-                        <div>Webpack, Babel</div>
-                        <div>PHP, Drupal</div>
-                        <div>Remix</div>
-                        <div>Kotlin (Android Framework)</div>
-                        <div>SOAP, Twig</div>
-                    </div>
-                    <div>🟣 started knowledge</div>
-                    <div>React Native, Redis, Azure, nginx, StoryBook</div>
-                </div>
-            </article>
-            <article>
-                <h1>LIBRARIES</h1>
-                <div class="skills-box">
-                    <div>🟢 good knowledge</div>
-                    <div>
-                        <div>lodash, jQuery, Highcharts, Express.js, Mongoose, JsonServer, DevExtreme, RxJava, bull.js
+        <section id="at-skills" class="sec sec-skills">
+            <h1 class="sec__header">Skills</h1>
+            <div class="sec__body">
+                <div>During my practical work, I got acquainted with the following technologies:</div>
+                <article class="skills-box">
+                    <h1 class="skills-box__title">PROGRAMMING LANGUAGES / FRAMEWORKS / BIG TECHNOLOGIES / BIG
+                        LIBRARIES</h1>
+                    <div class="skills-box__items">
+                        <div>🟢 good knowledge</div>
+                        <div>
+                            <div>JavaScript, TypeScript, Java (Android Framework)</div>
+                            <div>HTML, CSS, SCSS</div>
+                            <div>Vue, React, Angular</div>
+                            <div>Redux, Vuex</div>
+                            <div>GraphQL, REST API</div>
+                            <div>NodeJS, Docker, npm, yarn, RxJS, Markdown, XML, SQL, Visiology, SVG</div>
                         </div>
-                        <div>Material UI, And Design, Chakra UI, Element UI, Bootstrap, Bulma, Formik</div>
-                        <div>moment.js, day.js</div>
+                        <div>🟠 middle knowledge</div>
+                        <div>
+                            <div>Nest.js, Nuxt.js, Next.js</div>
+                            <div>Webpack, Babel</div>
+                            <div>PHP, Drupal</div>
+                            <div>Remix</div>
+                            <div>Kotlin (Android Framework)</div>
+                            <div>SOAP, Twig</div>
+                        </div>
+                        <div>🟣 started knowledge</div>
+                        <div>React Native, Redis, Azure, nginx, StoryBook</div>
                     </div>
-                    <div>🟠 middle knowledge</div>
-                    <div>
-                        <div>Jest, mocha, chai, sinon.js, nock.js, Gulp, SheetJS, Socket.io, tsdx</div>
+                </article>
+                <article class="skills-box">
+                    <h1 class="skills-box__title">LIBRARIES</h1>
+                    <div class="skills-box__items">
+                        <div>🟢 good knowledge</div>
+                        <div>
+                            <div>lodash, jQuery, Highcharts, Express.js, Mongoose, JsonServer, DevExtreme, RxJava,
+                                bull.js
+                            </div>
+                            <div>Material UI, And Design, Chakra UI, Element UI, Bootstrap, Bulma, Formik</div>
+                            <div>moment.js, day.js</div>
+                        </div>
+                        <div>🟠 middle knowledge</div>
+                        <div>
+                            <div>Jest, mocha, chai, sinon.js, nock.js, Gulp, SheetJS, Socket.io, tsdx</div>
+                        </div>
+                        <div>🟣 started knowledge</div>
+                        <div>yup</div>
                     </div>
-                    <div>🟣 started knowledge</div>
-                    <div>yup</div>
-                </div>
-            </article>
-            <article>
-                <h1>DB / DBMS</h1>
-                <div class="skills-box">
-                    <div>🟢 good knowledge</div>
-                    <div>
-                        <div>MongoDB, SQLite, Firebird</div>
+                </article>
+                <article class="skills-box">
+                    <h1 class="skills-box__title">DB / DBMS</h1>
+                    <div class="skills-box__items">
+                        <div>🟢 good knowledge</div>
+                        <div>
+                            <div>MongoDB, SQLite, Firebird</div>
+                        </div>
+                        <div>🟠 middle knowledge</div>
+                        <div>
+                            <div>PostgreSQL</div>
+                        </div>
+                        <div>🟣 started knowledge</div>
+                        <div>Firebase</div>
                     </div>
-                    <div>🟠 middle knowledge</div>
-                    <div>
-                        <div>PostgreSQL</div>
+                </article>
+                <article class="skills-box">
+                    <h1 class="skills-box__title">TOOLS</h1>
+                    <div class="skills-box__items">
+                        <div>🟢 good knowledge</div>
+                        <div>
+                            <div>WebStorm, PHPStorm, VS Code, Android Studio, npm, yarn, DevTools browsers, Git (GitLab,
+                                GitHub, BitBucket), bash, linux terminal
+                            </div>
+                        </div>
+                        <div>🟠 middle knowledge</div>
+                        <div>
+                            <div>make</div>
+                        </div>
                     </div>
-                    <div>🟣 started knowledge</div>
-                    <div>Firebase</div>
-                </div>
-            </article>
-            <article>
-                <h1>TOOLS</h1>
-                <div class="skills-box">
-                    <div>🟢 good knowledge</div>
-                    <div>
-                        <div>WebStorm, PHPStorm, VS Code Android Studio, npm, yarn, DevTools browsers, Git (GitLab, GitHub, BitBucket), bash, linux terminal</div>
+                </article>
+                <article class="skills-box">
+                    <h1 class="skills-box__title">OTHER SKILLS</h1>
+                    <div class="skills-box__items">
+                        <div>🟢 good knowledge</div>
+                        <div>
+                            <div>10-finger blind printing</div>
+                        </div>
+                        <div>🟣 started knowledge</div>
+                        <div>
+                            <div>English - free reading of technical literature with occasional reference to the
+                                dictionary
+                            </div>
+                        </div>
                     </div>
-                    <div>🟠 middle knowledge</div>
-                    <div>
-                        <div>make</div>
-                    </div>
-                </div>
-            </article>
-            <article>
-                <h1>OTHER SKILLS</h1>
-                <div class="skills-box">
-                    <div>🟢 good knowledge</div>
-                    <div>
-                        <div>10-finger blind printing</div>
-                    </div>
-                    <div>🟣 started knowledge</div>
-                    <div>
-                        <div>English - free reading of technical literature with occasional reference to the dictionary</div>
-                    </div>
-                </div>
-            </article>
+                </article>
+            </div>
         </section>
+
+        <section id="at-work" class="sec sec-work-expirience">
+            <h1 class="sec__header">Work expirience</h1>
+            <div class="sec__body">
+                <div><b>2020-now ООО "7 Red Lines"</b>. Creation of new and development of existing projects for
+                    companies:
+                    <ul>
+                        <li><b>Amway</b> — client and admin parts, the project of registering users to events.
+                            Development
+                            of the initiated project. Technologies — Vue, Element Ui, Docker
+                        </li>
+                        <li><b>Polymedia (subcontractor TVEL/Rosatom)</b> and <b>"Corportaion MSP"</b> (element of
+                            the ecosystem
+                            "Gosuslugi") - development of dashboards with widgets, multi-level tables, graphs,
+                            charts (technologies - Visiology, JavaScript, jQuery, Highcharts, DevExtreme)
+                        </li>
+                        <li><b>Saint Gobain</b> — A hub site, a single platform for all Saint Gobain technical
+                            solutions
+                            and services in Russia. Participation in the creation of technical calculators,
+                            development of various frontend parts of the project. Technologies — JavaScript, jQuery,
+                            Gulp, Drupal, PHP, Docker
+                        </li>
+                        <li><b>Datareon</b> — development of an existing project. Technologies — Angular,
+                            TypeScript,
+                            RxJS
+                        </li>
+                        <li><b>Petrovich Trading Chain</b> - participation in the development of the stacking
+                            calculator.
+                            Technologies — JavaScript, Drupal, PHP
+                        </li>
+                        <li><b>USA Check Shop</b> - Website for selling (shipping) clothing from the U.S. - one per
+                            project, fullstack. Layout of the entire frontend part according to the layout,
+                            implementation of the initial backend with the authentication flop. Technologies — Vue
+                            (Nuxt.js), Nest.js, MongoDb, Mongoose, Webpack
+                        </li>
+                        <li><b>CHTZ (Presale)</b> - SIP-client in Node.js to record voice calls — presale.
+                            Technologies —
+                            Node.js, JavaScript
+                        </li>
+                    </ul>
+                </div>
+                <div class="dv1">&nbsp;</div>
+                <div><b>2019-2020 "Brymonsoft"</b>
+                    <ul>
+                        <li> Creation of new web projects (for internal corporate use by US customers) and
+                            development of existing ones. Building almost from scratch several web projects (backend
+                            and frontend). Technologies: JavaScript, Node.js, React, MongoDB, GraphQL, Docker,
+                            Redis, Azure. Scope - document recognition with using machine learning, bots, an
+                            application for massively polling subnet machines.
+                        </li>
+                    </ul>
+                </div>
+                <div class="dv1">&nbsp;</div>
+                <div><b>2014-2019 "NPO Krista"</b>
+                    <ul>
+                        <li> Support/extension of functionality of the systems intended for use by local authorities
+                            (property accounting, contracts, financial accounting). Development technology - ABL
+                            (internal macro language), Firebird DBMS. Integration with the state web-services
+                            (Rosreestr, Federal Tax Service), including via SMEW. Data transfer from new clients'
+                            systems.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="at-edu" class="sec">
+            <h1 class="sec__header">Education</h1>
+            <div class="sec__body">
+                "P.A. Solovyov Rybinsk State Aviation Technological University" (RGATU), 2000 year, engineer in the
+                specialty "Aircraft Engines and Power Plants" (Design Engineer)
+            </div>
+        </section>
+
+        <section id="at-ce" class="sec">
+            <h1 class="sec__header">Code example</h1>
+            <div class="sec__body">
+                <pre><code>function isEmptyOrWhitespaces(str: string): Boolean {
+  return (!str || str.length === 0 || /^\s*$/.test(str))
+}</code></pre>
+            </div>
+        </section>
+
+        <section id="at-lang" class="sec">
+            <h1 class="sec__header">Languages</h1>
+            <div class="sec__body">
+                <ul>
+                    <li> English (free reading of technical literature with occasional reference to the dictionary)</li>
+                    <li> Russian (native)</li>
+                    <li> Belarussian (native)</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="at-location" class="sec">
+            <h1 class="sec__header">My location</h1>
+            <div class="sec__body">
+                <blockquote><a href="https://yandex.by/maps/-/CCUB5HXKsD" target="_blank">Russia, Yaroslavl region,
+                    Rybinsk</a></blockquote>
+            </div>
+        </section>
+
+        <!--        <div id="wr-container"></div>-->
+
     </div>
-    <footer>
+    <footer class="footer">
 
     </footer>
 </main>
+
+<!-- Load React. -->
+<!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+<script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+
+<!-- Load our React component. -->
+<script src="./r-main.js"></script>
+<script>hljs.highlightAll();</script>
 </body>
 </html>
