@@ -73,6 +73,18 @@
     justify-content: center;
 }
 
+@media (max-width: 768px) {
+    .cv .header .hero {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    .cv .header .hero .hero__logo-box {
+        display: flex;
+        justify-content: center;
+    }
+}
 
 .cv .header .hero .hero__logo-box img {
     border: 0 solid transparent;
@@ -83,17 +95,43 @@
     display: flex;
     flex-direction: column;
     row-gap: 1rem;
-    margin-top: 3.7rem;
+    margin-top: 2.3rem;
+}
+
+@media (max-width: 768px) {
+    .cv .header .hero .hero__txt-box {
+        align-items: center;
+    }
 }
 
 .cv .header .hero .hero__txt-box .txt-box__title {
     font-family: "Gafata", sans-serif;
     font-size: 3rem;
+    line-height: 3.5rem;
 }
 
 .cv .header .hero .hero__txt-box .txt-box__subtitle {
     font-size: 1.3rem;
     margin-top: 0.5rem;
+}
+
+.cv .header .hero .hero__txt-box .txt-box__icons {
+    display: flex;
+    column-gap: 1.8rem;
+}
+
+.cv .header .hero .hero__txt-box .txt-box__icons img {
+    width: 2.4rem;
+    height: 2.4rem;
+    padding-top: 1rem;
+}
+
+.aname {
+    text-align: center;
+}
+
+.aname .aname__name2 {
+
 }
 
 /* // --- contacts */
@@ -103,21 +141,44 @@
     flex-direction: column;
 }
 
+/* // --- */
+
 .cv .sec-contacts__body {
     display: inline-grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-row-gap: 1rem;
-    width: fit-content;
+    grid-template-columns: 1fr 1fr 0.8fr 0.7fr;
+    grid-row-gap: 2rem;
+    grid-column-gap: 1rem;
     align-self: center;
+    width: fit-content;
 }
 
-.cv .sec-contacts__body .contacts__item {
+@media (max-width: 1024px) {
+    .cv .sec-contacts__body {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .cv .sec-contacts__body {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 620px) {
+    .cv .sec-contacts__body {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* // --- */
+
+.cv .sec-contacts__body .sec-contacts__item {
     display: inline-flex;
     column-gap: 1rem;
     width: fit-content;
 }
 
-.cv .sec-contacts__body .contacts__item .contacts__img {
+.cv .sec-contacts__body .sec-contacts__item .sec-contacts__img {
     width: 2.2rem;
     height: 2.2rem;
     display: inline-flex;
@@ -125,12 +186,9 @@
     align-items: center;
 }
 
-.cv .sec-contacts__body .contacts__item .contacts__img img {
+.cv .sec-contacts__body .sec-contacts__item .sec-contacts__img img {
     width: 2rem;
     height: 2rem;
-}
-
-.cv .sec-contacts__body .contacts__item .contacts__pair .pair-val {
 }
 
 .cv .skills-box .skills-box__title {
