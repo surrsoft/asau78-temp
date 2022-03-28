@@ -7,14 +7,16 @@
     <link rel="stylesheet" href="./hilights-js/a11y-light.min.css">
     <script src="./hilights-js/highlight.min.js"></script>
     <link rel="stylesheet" href="./style.css"/>
+    <link rel="stylesheet" href="./hamburger.css"/>
+    <link rel="stylesheet" href="./sk-menu.css"/>
     <title>Document</title>
 </head>
 <body>
 
 <main class="cv container">
     <header class="header">
-        <nav class="nav mt-b">
-            <ul class="nav-list">
+        <nav class="nav">
+            <ul class="nav-list container">
                 <li class="nav-list__elem"><a href="#at-contacts">Contacts</a></li>
                 <li class="nav-list__elem"><a href="#at-aboutme">About me</a></li>
                 <li class="nav-list__elem"><a href="#at-skills">Skills</a></li>
@@ -24,7 +26,13 @@
                 <li class="nav-list__elem"><a href="#at-lang">Languages</a></li>
                 <li class="nav-list__elem"><a href="#at-location">My location</a></li>
             </ul>
+            <div class="hamburger-icon">
+                <div class="hamburger-icon__bar"></div>
+                <div class="hamburger-icon__bar"></div>
+                <div class="hamburger-icon__bar"></div>
+            </div>
         </nav>
+
         <div class="hero mt-c">
             <div class="hero__logo-box">
                 <img src="./assets/images/0064_w200.jpg" alt="my logo"/>
@@ -42,7 +50,51 @@
                 </div>
             </div>
         </div>
+
+        <div class="sk-menu mt-e">
+            <div class="sk-menu__btn sk-menu__btn_more-l">_</div>
+            <div class="sk-menu__btn sk-menu__btn_l">L</div>
+            <div class="sk-menu__body"></div>
+            <div class="sk-menu__btn sk-menu__btn_r">R</div>
+            <div class="sk-menu__btn sk-menu__btn_more-r">_</div>
+        </div>
     </header>
+
+    <!--    <div class="anim-menu mt-d">    -->
+    <!--        <div class="anim-menu__item">-->
+    <!--            <div class="anim-menu__icon"><img src="./assets/images/contacts.svg" alt="telegram logo"></div>-->
+    <!--            <div class="anim-menu__text">Contacts</div>-->
+    <!--        </div>-->
+    <!--        <div class="anim-menu__item">-->
+    <!--            <div class="anim-menu__icon"><img src="./assets/images/about-me.svg" alt="telegram logo"></div>-->
+    <!--            <div class="anim-menu__text">About me</div>-->
+    <!--        </div>-->
+    <!--        <div class="anim-menu__item">-->
+    <!--            <div class="anim-menu__icon"><img src="./assets/images/telegram.svg" alt="telegram logo"></div>-->
+    <!--            <div class="anim-menu__text">Skills</div>-->
+    <!--        </div>-->
+    <!--        <div class="anim-menu__item">-->
+    <!--            <div class="anim-menu__icon"><img src="./assets/images/telegram.svg" alt="telegram logo"></div>-->
+    <!--            <div class="anim-menu__text">Work expirience</div>-->
+    <!--        </div>-->
+    <!--        <div class="anim-menu__item">-->
+    <!--            <div class="anim-menu__icon"><img src="./assets/images/telegram.svg" alt="telegram logo"></div>-->
+    <!--            <div class="anim-menu__text">Education</div>-->
+    <!--        </div>-->
+    <!--        <div class="anim-menu__item">-->
+    <!--            <div class="anim-menu__icon"><img src="./assets/images/telegram.svg" alt="telegram logo"></div>-->
+    <!--            <div class="anim-menu__text">Code example</div>-->
+    <!--        </div>-->
+    <!--        <div class="anim-menu__item">-->
+    <!--            <div class="anim-menu__icon"><img src="./assets/images/telegram.svg" alt="telegram logo"></div>-->
+    <!--            <div class="anim-menu__text">Languages</div>-->
+    <!--        </div>-->
+    <!--        <div class="anim-menu__item">-->
+    <!--            <div class="anim-menu__icon"><img src="./assets/images/telegram.svg" alt="telegram logo"></div>-->
+    <!--            <div class="anim-menu__text">My location</div>-->
+    <!--        </div>-->
+    <!--    </div>-->
+
     <div class="mainbox">
         <section id="at-contacts" class="sec sec-contacts">
             <h1 class="sec__header">Contacts</h1>
@@ -316,13 +368,15 @@
     </footer>
 </main>
 
+<script src="hamburgerElem.js"></script>
+<script src="./sk-menu.js"></script>
+<script>hljs.highlightAll();</script>
+
 <!-- Load React. -->
 <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
 <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
 <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
-
-<!-- Load our React component. -->
 <script src="./r-main.js"></script>
-<script>hljs.highlightAll();</script>
+
 </body>
 </html>

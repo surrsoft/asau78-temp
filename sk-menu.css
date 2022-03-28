@@ -1,0 +1,55 @@
+
+.sk-menu {
+    --sk-menu-count1: 3;
+    --sk-menu-width1: 160px;
+    --sk-menu-gap1: 14px;
+    --sk-menu-gap2: 8px;
+    --sk-menu-offset: 0;
+
+    display: flex;
+    text-transform: uppercase;
+    column-gap: var(--sk-menu-gap2);
+    justify-content: center;
+}
+
+.sk-menu * {
+    box-sizing: border-box;
+}
+
+.sk-menu .sk-menu__btn {
+    border: 1px solid silver;
+    padding: 0 8px;
+    cursor: pointer;
+}
+
+.sk-menu .sk-menu__body {
+    display: flex;
+    column-gap: var(--sk-menu-gap1);
+    width: calc(var(--sk-menu-width1) * var(--sk-menu-count1) + var(--sk-menu-gap1) * (var(--sk-menu-count1) - 1));
+    overflow-x: hidden;
+}
+
+.sk-menu .sk-menu__body .sk-menu__elem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    min-width: var(--sk-menu-width1);
+    position: relative;
+    left: var(--sk-menu-offset);
+    transition: all 0.5s ease;
+}
+
+/* // del+ */
+/*.sk-menu .sk-menu__body .sk-menu__elem::before {*/
+/*    content: "";*/
+/*    height: 2px;*/
+/*    width: 100%;*/
+/*    background-color: red;*/
+/*    position: absolute;*/
+/*    z-index: -1;*/
+/*}*/
+
+.sk-menu .sk-menu__body .sk-menu__elem a {
+    padding-top: 0.25rem;
+}

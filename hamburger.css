@@ -1,0 +1,43 @@
+/** //--- Hamburger **/
+
+.hamburger-icon {
+    display: none;
+    box-sizing: border-box;
+    cursor: pointer;
+    height: 2rem;
+    width: 2rem;
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+    background-color: #fff;
+    z-index: 3;
+}
+
+@media (max-width: 768px) {
+    .hamburger-icon {
+        display: inline-block;
+    }
+}
+
+.hamburger-icon .hamburger-icon__bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    transition: all 0.3s ease-in-out;
+    background-color: #666666;
+}
+
+.hamburger-icon.active .hamburger-icon__bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger-icon.active .hamburger-icon__bar:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger-icon.active .hamburger-icon__bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+/** //--- </ Hamburger **/
