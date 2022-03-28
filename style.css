@@ -79,29 +79,36 @@
 
 @media (max-width: 768px) {
 
-    .nav .nav-list {
-        display: none;
-        flex-direction: column;
-        justify-content: start;
-        align-items: center;
-        background-color: rgba(239, 239, 230, 0.97);
-        top: 0;
-        width: 100%;
-        padding: 2rem;
-        z-index: 2;
-    }
-
     .nav.active {
         height: 100%;
         width: 100%;
         background-color: transparent;
-        position: absolute;
-        top: 0;
+        position: fixed;
         z-index: 1;
+        transition: top 1s ease;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .nav .nav-list {
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        background-color: rgba(239, 239, 230, 0.97);
+        width: 100%;
+        padding: 2rem;
+        z-index: 2;
+        height: fit-content;
+    }
+
+    .nav.active {
+        display: inline-flex;
     }
 
     .nav.active .nav-list {
-        display: inline-flex;
+        position: sticky;
     }
 }
 
