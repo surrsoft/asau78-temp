@@ -99,7 +99,8 @@
     <!--    </div>-->
 
     <div class="mainbox">
-        <section id="at-contacts" class="sec sec-contacts">
+        <a id="at-contacts" class="anchor"></a>
+        <section class="sec sec-contacts">
             <h1 class="sec__header">Contacts</h1>
             <div class="sec__body sec-contacts__body">
                 <div class="sec-contacts__item">
@@ -132,6 +133,31 @@
                         <div class="pair__val"><a href="skype://ssurrokk" target="_blank">ssurrokk</a></div>
                     </div>
                 </div>
+
+                <div class="sec-contacts__item">
+                    <div class="sec-contacts__img"><img src="./assets/images/github-icon-1.svg" alt="github logo"></div>
+                    <div class="pair">
+                        <div class="pair__key">github</div>
+                        <div class="pair__val"><a href="https://github.com/surrsoft" target="_blank">surrsoft</a></div>
+                    </div>
+                </div>
+
+                <div class="sec-contacts__item">
+                    <div class="sec-contacts__img"><img src="./assets/images/linkedin-icon-2.svg" alt="linkedin logo"></div>
+                    <div class="pair">
+                        <div class="pair__key">linkedin</div>
+                        <div class="pair__val"><a href="https://www.linkedin.com/in/webevgeny/" target="_blank">webevgeny</a></div>
+                    </div>
+                </div>
+
+                <div class="sec-contacts__item">
+                    <div class="sec-contacts__img"><img src="./assets/images/youtube-3.svg" alt="youtube logo"></div>
+                    <div class="pair">
+                        <div class="pair__key">youtube</div>
+                        <div class="pair__val"><a href="https://www.youtube.com/channel/UCt4eN0Gol8gyZ7LHuQDhr3w" target="_blank">Adventures of ...</a></div>
+                    </div>
+                </div>
+
                 <div class="sec-contacts__item">
                     <div class="sec-contacts__img"><img src="./assets/images/goverment.svg" alt="telegram logo"></div>
                     <div class="pair">
@@ -139,18 +165,25 @@
                         <div class="pair__val">Russian Federation</div>
                     </div>
                 </div>
+
                 <div class="sec-contacts__item">
                     <div class="sec-contacts__img"><img src="./assets/images/pin.svg" alt="telegram logo"></div>
                     <div class="pair">
                         <div class="pair__key">address</div>
                         <div class="pair__val">
-                            Yaroslavl region, Rybinsk
+                            Yaroslavl reg., Rybinsk
                         </div>
                     </div>
                 </div>
+
+
+
+
             </div>
         </section>
-        <section id="at-aboutme" class="sec sec-aboutme">
+
+        <a id="at-aboutme" class="anchor"></a>
+        <section class="sec sec-aboutme">
             <h1 class="sec__header">About me</h1>
             <div class="sec__body sec-aboutme__body">
                 <p>I am a frontend developer. I work with React, Vue, Angular. 8 years of experience in IT, including 3
@@ -165,7 +198,9 @@
                     techniques.</p>
             </div>
         </section>
-        <section id="at-skills" class="sec sec-skills">
+
+        <a id="at-skills" class="anchor"></a>
+        <section class="sec sec-skills">
             <h1 class="sec__header">Skills</h1>
             <div class="sec__body">
                 <div>During my practical work, I got acquainted with the following technologies:</div>
@@ -262,7 +297,8 @@
             </div>
         </section>
 
-        <section id="at-work" class="sec sec-work-expirience">
+        <a id="at-work" class="anchor"></a>
+        <section class="sec sec-work-expirience">
             <h1 class="sec__header">Work expirience</h1>
             <div class="sec__body">
                 <div><b>2020-now ООО "7 Red Lines"</b>. Creation of new and development of existing projects for
@@ -327,7 +363,8 @@
             </div>
         </section>
 
-        <section id="at-edu" class="sec">
+        <a id="at-edu" class="anchor"></a>
+        <section class="sec">
             <h1 class="sec__header">Education</h1>
             <div class="sec__body">
                 "P.A. Solovyov Rybinsk State Aviation Technological University" (RGATU), 2000 year, engineer in the
@@ -335,7 +372,8 @@
             </div>
         </section>
 
-        <section id="at-ce" class="sec">
+        <a id="at-ce" class="anchor"></a>
+        <section class="sec">
             <h1 class="sec__header">Code example</h1>
             <div class="sec__body">
                 <pre><code>function isEmptyOrWhitespaces(str: string): Boolean {
@@ -344,7 +382,8 @@
             </div>
         </section>
 
-        <section id="at-lang" class="sec">
+        <a id="at-lang" class="anchor"></a>
+        <section class="sec">
             <h1 class="sec__header">Languages</h1>
             <div class="sec__body">
                 <ul>
@@ -355,11 +394,15 @@
             </div>
         </section>
 
-        <section id="at-location" class="sec">
+        <a id="at-location" class="anchor"></a>
+        <section class="sec">
             <h1 class="sec__header">My location</h1>
             <div class="sec__body">
-                <blockquote><a href="https://yandex.by/maps/-/CCUB5HXKsD" target="_blank">Russia, Yaroslavl region,
-                    Rybinsk</a></blockquote>
+                <div><a href="https://yandex.by/maps/-/CCUB5HXKsD" target="_blank">Russia, Yaroslavl region,
+                    Rybinsk</a></div>
+                <div class="dv2"></div>
+
+                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ac709b19b82afca1790f55eeb60f1ed08c2353cfd2d187ae73f2f4df2ddb00795&amp;width=100%25&amp;height=554&amp;lang=ru_RU&amp;scroll=true"></script>
             </div>
         </section>
 
@@ -369,10 +412,17 @@
     <footer class="footer">
 
     </footer>
+
+    <button onclick="topFunction()" id="btnScrollToTop" title="Go to top">
+        <img src="./assets/images/arrow-top.svg" alt="go to top">
+    </button>
 </main>
 
-<script src="hamburgerElem.js"></script>
+
+
+<script src="./hamburgerElem.js"></script>
 <script src="./sk-menu.js"></script>
+<script src="./main.js"></script>
 <script>hljs.highlightAll();</script>
 
 <!-- Load React. -->

@@ -27,6 +27,8 @@
     --color2: #0099ff;
     --color3: #666666;
     --color4: rgba(255, 255, 255, 0.88);
+    --color5: rgba(227, 153, 153, 0.79);
+    --color6: #d2cd68;
 
     --border1: 1px solid silver;
     --radius1: 0.6rem;
@@ -46,7 +48,24 @@
     text-decoration: underline;
 }
 
-.cv .header {
+/* // --- техника [asau79] */
+a.anchor {
+    display: block;
+    position: relative;
+    top: -60px;
+    visibility: hidden;
+}
+
+@media (max-width: 768px) {
+    a.anchor {
+        top: 0;
+    }
+}
+
+/* // --- */
+
+.mainbox {
+    position: relative;
 }
 
 /* // --- nav */
@@ -74,7 +93,7 @@
     transition: display 1s ease;
     background-color: var(--color4);
     z-index: 1;
-    border-bottom: 1px solid #666666;
+    border-bottom: 1px solid var(--color3);
 }
 
 @media (max-width: 768px) {
@@ -240,7 +259,7 @@
 
 .cv .sec-contacts__body {
     display: inline-grid;
-    grid-template-columns: 1fr 1fr 0.8fr 0.7fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-row-gap: 2rem;
     grid-column-gap: 1rem;
     align-self: center;
@@ -271,7 +290,15 @@
 .cv .sec-contacts__body .sec-contacts__item {
     display: inline-flex;
     column-gap: 1rem;
-    width: fit-content;
+    width: 100%;
+    border: 1px solid transparent;
+    padding: 0 0.5rem;
+}
+
+.cv .sec-contacts__body .sec-contacts__item:hover {
+    border-radius: 0.5rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    transition: box-shadow 200ms ease;
 }
 
 .cv .sec-contacts__body .sec-contacts__item .sec-contacts__img {
@@ -291,7 +318,7 @@
     border: var(--border1);
     margin-bottom: 0;
     padding: 0.5rem 1.5rem;
-    background-color: #fff9c4;
+    /*background-color: #fff9c4;*/
     border-top-left-radius: var(--radius1);
     border-top-right-radius: var(--radius1);
     font-size: 0.9rem;
@@ -308,6 +335,18 @@
     padding: 1rem 3rem;
     border-bottom-right-radius: var(--radius1);
     border-bottom-left-radius: var(--radius1);
+}
+
+@media (max-width: 768px) {
+    .cv .skills-box .skills-box__items {
+        padding: 1rem 1rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .cv .skills-box .skills-box__items {
+        grid-template-columns: 1fr;
+    }
 }
 
 .cv .footer {
@@ -328,6 +367,13 @@
     padding-right: 2rem;
 }
 
+@media (max-width: 768px) {
+    .sec .sec__body {
+        padding-left: 0.1rem;
+        padding-right: 0.1rem;
+    }
+}
+
 .sec .sec__header {
     position: relative;
     margin-bottom: 2.2rem;
@@ -345,6 +391,62 @@
     bottom: -0.5rem;
     left: -0.3rem;
     right: 0.3rem;
+}
+
+/* // --- button scroll to top */
+
+#btnScrollToTop {
+    --size1649: 4rem;
+    box-sizing: border-box;
+    width: var(--size1649);
+    height: var(--size1649);
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 1rem;
+    z-index: 6;
+    border: none;
+    outline: none;
+    background-color: var(--color5);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 18px;
+}
+
+#btnScrollToTop img {
+    position: relative;
+    top: 0.15rem;
+}
+
+@media (max-width: 768px) {
+    #btnScrollToTop {
+        right: 1rem;
+    }
+}
+
+@media (min-width: 768px) {
+    #btnScrollToTop {
+        right: calc(50% - 750px / 2 + 1rem);
+    }
+}
+
+@media (min-width: 992px) {
+    #btnScrollToTop {
+        right: calc(50% - 970px / 2 + 1rem);
+    }
+}
+
+@media (min-width: 1200px) {
+    #btnScrollToTop {
+        right: calc(50% - 1170px / 2 + 1rem);
+    }
+}
+
+
+#btnScrollToTop:hover {
+    background-color: var(--color6);
 }
 
 /* // --- */
@@ -368,6 +470,12 @@
 .dv1 {
     height: 1rem;
 }
+
+.dv2 {
+    height: 0.5rem;
+}
+
+/* // --- */
 
 .container {
     padding-right: 15px;
