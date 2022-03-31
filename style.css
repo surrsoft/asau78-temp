@@ -19,19 +19,43 @@
 }
 
 :root {
-    font-family: "Comfortaa", sans-serif;
-    line-height: 1.6rem;
-    scroll-behavior: smooth;
-
-    --color1: silver;
-    --color2: #0099ff;
-    --color3: #666666;
-    --color4: rgba(255, 255, 255, 0.88);
-    --color5: rgba(227, 153, 153, 0.79);
-    --color6: #d2cd68;
+    --color-bg-all: white;
+    --color-bg-all-dark: #3d3d3d;
+    --color-font-all: black;
+    --color-font-all-dark: white;
+    --color-links-color: #0099ff;
+    --color-nav-list-bottom-line: #666666;
+    --color-nav-list-bg: rgba(255, 255, 255, 0.88);
+    --color-nav-list-bg-dark: rgba(61, 61, 61, 0.89);
+    --color-sec-header-line: silver;
+    --color-sec-header-font-color: #666666;
+    --color-sec-header-font-color-dark: white;
+    --color-btn-scroll-to-top: rgba(227, 153, 153, 0.79);
+    --color-btn-scroll-to-top-hover: #d2cd68;
 
     --border1: 1px solid silver;
     --radius1: 0.6rem;
+    --timeout1: 700ms;
+
+    /* --- */
+    font-family: "Comfortaa", sans-serif;
+    line-height: 1.6rem;
+    scroll-behavior: smooth;
+    background-color: var(--color-bg-all);
+    color: var(--color-font-all);
+}
+
+body {
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    transition: all var(--timeout1) ease;
+}
+
+body.dark-theme {
+    color: var(--color-font-all-dark);
+    background-color: var(--color-bg-all-dark);
+    transition: all  var(--timeout1) ease;
 }
 
 .cv {
@@ -41,7 +65,7 @@
 
 .cv a {
     text-decoration: none;
-    color: var(--color2);
+    color: var(--color-links-color);
 }
 
 .cv a:hover {
@@ -78,7 +102,7 @@ a.anchor {
     left: 0;
     right: 0;
     width: 100%;
-    z-index: 1;
+    z-index: 3;
 }
 
 .nav .nav-list {
@@ -90,10 +114,15 @@ a.anchor {
     padding: 1rem 0 0.6rem 0;
     column-gap: 0;
     row-gap: 1rem;
-    transition: display 1s ease;
-    background-color: var(--color4);
-    z-index: 1;
-    border-bottom: 1px solid var(--color3);
+    transition: all var(--timeout1) ease;
+
+    background-color: var(--color-nav-list-bg);
+    z-index: 3;
+    border-bottom: 1px solid var(--color-nav-list-bottom-line);
+}
+
+body.dark-theme .nav .nav-list {
+    background-color: var(--color-nav-list-bg-dark);
 }
 
 @media (max-width: 768px) {
@@ -103,12 +132,12 @@ a.anchor {
         width: 100%;
         background-color: transparent;
         position: fixed;
-        z-index: 1;
+        z-index: 3;
         transition: top 1s ease;
     }
 
     .nav {
-        /*display: none;*/
+        display: none;
         overflow: hidden;
     }
 
@@ -119,7 +148,7 @@ a.anchor {
         background-color: rgba(239, 239, 230, 0.97);
         width: 100%;
         padding: 2rem;
-        z-index: 2;
+        z-index: 4;
         height: fit-content;
         position: relative;
         top: -500px;
@@ -378,15 +407,19 @@ a.anchor {
     position: relative;
     margin-bottom: 2.2rem;
     text-transform: uppercase;
-    color: var(--color3);
+    color: var(--color-sec-header-font-color);
     padding-top: 1rem;
+}
+
+body.dark-theme .sec .sec__header {
+    color: var(--color-sec-header-font-color-dark);
 }
 
 .sec .sec__header::after {
     content: "";
     height: 0.12rem;
     width: 100%;
-    background-color: var(--color1);
+    background-color: var(--color-sec-header-line);
     position: absolute;
     bottom: -0.5rem;
     left: -0.3rem;
@@ -407,7 +440,7 @@ a.anchor {
     z-index: 6;
     border: none;
     outline: none;
-    background-color: var(--color5);
+    background-color: var(--color-btn-scroll-to-top);
     color: white;
     cursor: pointer;
     padding: 15px;
@@ -446,7 +479,7 @@ a.anchor {
 
 
 #btnScrollToTop:hover {
-    background-color: var(--color6);
+    background-color: var(--color-btn-scroll-to-top-hover);
 }
 
 /* // --- */

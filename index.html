@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./hilights-js/a11y-light.min.css">
+    <link rel="stylesheet" href="hilights-js/a11y.css">
     <script src="./hilights-js/highlight.min.js"></script>
     <link rel="stylesheet" href="./style.css"/>
     <link rel="stylesheet" href="./hamburger.css"/>
     <link rel="stylesheet" href="./sk-menu.css"/>
+    <link rel="stylesheet" href="./btn-theme-toggle/btn-theme-toggle.css"/>
     <title>Document</title>
 </head>
 <body>
@@ -53,7 +54,27 @@
             </div>
         </div>
 
-<!--        <div class="sk-menu mt-e">-->
+        <button id="toggle" aria-label="Activate light mode" title="Activate light mode"  type="button">
+            <svg id="svg1" xmlns="http://www.w3.org/2000/svg" width="48" height="48"  viewBox="0 0 100 100">
+                <mask id="moonClip">
+                    <rect x="0" y="0" width="100" height="100" fill="white" />
+                    <circle cx="92" cy="50" r="54" fill="black" />
+                </mask>
+                <circle id="moon" cx="50" cy="50" r="50" fill="#a6a6a6" mask="url(#moonClip)" />
+                <g fill-rule="evenodd">
+                    <circle id="sun" cx="50" cy="50" r="28" fill="#FFAA21" />
+                    <circle id="beam1" cx="50" cy="92" r="8" fill="#FFAA21" />
+                    <circle id="beam2" cx="14" cy="72" r="8" fill="#FFAA21" />
+                    <circle id="beam3" cx="14" cy="29" r="8" fill="#FFAA21" />
+                    <circle id="beam4" cx="50" cy="8" r="8" fill="#FFAA21" />
+                    <circle id="beam5" cx="86" cy="29" r="8" fill="#FFAA21" />
+                    <circle id="beam6" cx="86" cy="72" r="8" fill="#FFAA21" />
+                </g>
+            </svg>
+        </button>
+
+
+        <!--        <div class="sk-menu mt-e">-->
 <!--            <div class="sk-menu__btn sk-menu__btn_more-l">_</div>-->
 <!--            <div class="sk-menu__btn sk-menu__btn_l">L</div>-->
 <!--            <div class="sk-menu__body"></div>-->
@@ -155,6 +176,14 @@
                     <div class="pair">
                         <div class="pair__key">youtube</div>
                         <div class="pair__val"><a href="https://www.youtube.com/channel/UCt4eN0Gol8gyZ7LHuQDhr3w" target="_blank">Adventures of ...</a></div>
+                    </div>
+                </div>
+
+                <div class="sec-contacts__item">
+                    <div class="sec-contacts__img"><img src="./assets/images/habr.svg" alt="habr logo"></div>
+                    <div class="pair">
+                        <div class="pair__key">habr.com</div>
+                        <div class="pair__val"><a href="https://habr.com/ru/users/ssurrokk/" target="_blank">ssurrokk</a></div>
                     </div>
                 </div>
 
@@ -419,9 +448,9 @@
 </main>
 
 
-
 <script src="./hamburgerElem.js"></script>
-<script src="./sk-menu.js"></script>
+<script src="./btn-theme-toggle/btn-theme-toggle.js"></script>
+<!--<script src="./sk-menu.js"></script>-->
 <script src="./main.js"></script>
 <script>hljs.highlightAll();</script>
 

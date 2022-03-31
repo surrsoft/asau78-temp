@@ -1,0 +1,123 @@
+
+.light {
+    background-color: #FFF9D9;
+    transition: background 0.5s ease-in-out;
+}
+
+
+button#toggle {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    z-index: 2;
+
+    position: absolute;
+    top: 0;
+    right: 2rem;
+}
+
+@media (max-width: 992px) {
+    button#toggle {
+        top: 9rem;
+    }
+}
+
+@media (max-width: 768px) {
+    button#toggle {
+        top: -5.7rem;
+        right: unset;
+        left: 2rem;
+    }
+}
+
+#moon {
+    transform: rotate(-45deg);
+    transform-origin: center center;
+}
+
+#toggle g circle {
+    transform-origin: center center;
+    transform: scale(0);
+}
+
+@keyframes hideMoon {
+    0% {
+        transform: rotate(0);
+    }
+
+    50% {
+        transform: rotate(135deg) scale(0.4);
+    }
+
+    60% {
+        transform: rotate(200deg) scale(0.2);
+    }
+
+    100% {
+        transform: rotate(200deg) scale(0);
+    }
+}
+
+@keyframes revealSun {
+    0% {
+        transform: scale(0);
+    }
+    40% {
+        transform: scale(0.8);
+    }
+    80% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes revealBeams {
+    0% {
+        transform: scale(0);
+    }
+    25% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes hideSun {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(0);
+    }
+}
+
+@keyframes revealMoon {
+    0% {
+        transform: scale(0);
+    }
+    10% {
+        transform: scale(0.7) rotate(100deg);
+    }
+    40% {
+        transform: scale(1) rotate(-15deg);
+    }
+    50% {
+        transform: scale(1) rotate(-60deg);
+    }
+    74.755% {
+        transform: scale(1) rotate(-35deg);
+    }
+    85% {
+        transform: scale(1) rotate(-50deg);
+    }
+    100% {
+        transform: scale(1) rotate(-45deg);
+    }
+}

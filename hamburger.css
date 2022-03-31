@@ -1,5 +1,14 @@
 /** //--- Hamburger **/
 
+:root {
+    --color-hamburder-bg: white;
+    --color-hamburder-bg-dark: #3d3d3d;
+    --color-bar-bg: #666666;
+    --color-bar-bg-dark: white;
+
+
+}
+
 .hamburger-icon {
     display: none;
     box-sizing: border-box;
@@ -9,8 +18,13 @@
     position: fixed;
     top: 2rem;
     right: 2rem;
-    background-color: #fff;
+    background-color: var(--color-hamburder-bg);
     z-index: 3;
+    transition: all 700ms ease;
+}
+
+body.dark-theme .hamburger-icon {
+    background-color: var(--color-hamburder-bg-dark);
 }
 
 @media (max-width: 768px) {
@@ -25,7 +39,11 @@
     height: 3px;
     margin: 5px auto;
     transition: all 0.3s ease-in-out;
-    background-color: #666666;
+    background-color: var(--color-bar-bg);
+}
+
+body.dark-theme .hamburger-icon .hamburger-icon__bar {
+    background-color: var(--color-bar-bg-dark);
 }
 
 .hamburger-icon.active .hamburger-icon__bar:nth-child(1) {
